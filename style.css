@@ -1,0 +1,17 @@
+.first-button {
+    background-color: red;
+    width: 100px;
+}
+
+.tic {
+    grid-template-rows: repeat(3, 30px);
+    grid-template-columns: repeat(3, 30px);
+    display: grid;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+
+/* .tac {
+    height: 100%;
+} */

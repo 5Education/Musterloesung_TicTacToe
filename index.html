@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <p>Hallo</p>
+    <h1>DeinName</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <button id="firstbutton" class='first-button' onclick=firstClickHandler()>Klick mich zuerst</button>
+    <button onclick=clickHandler()>Klick mich</button>
+    <div class='tic'>
+        <button class='tac' key='1' onclick=tacHandler(this)></button>
+        <button class='tac' key='2' onclick=tacHandler(this)></button>
+        <button class='tac' key='3' onclick=tacHandler(this)></button>
+        <button class='tac' key='4' onclick=tacHandler(this)></button>
+        <button class='tac' key='5' onclick=tacHandler(this)></button>
+        <button class='tac' key='6' onclick=tacHandler(this)></button>
+        <button class='tac' key='7' onclick=tacHandler(this)></button>
+        <button class='tac' key='8' onclick=tacHandler(this)></button>
+        <button class='tac' key='9' onclick=tacHandler(this)></button>
+    </div>
+    <button class="reset" onclick=resetGame()>Reset</button>
+    <script src='index.js'></script>
+</body>
